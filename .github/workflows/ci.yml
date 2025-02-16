@@ -12,7 +12,7 @@ jobs:
       - name: Set Up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'stable'
+          node-version: '16'  # Specify a specific version here
 
       - name: Install Dependencies
         run: npm install
